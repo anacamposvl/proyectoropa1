@@ -1,0 +1,104 @@
+*{
+    font-family: Arial;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: uppercase;
+}
+.header img{
+    width: 55px;
+    height: 55px;
+}
+.menu{ 
+    padding:10px;
+    background: black;
+    text-align: center;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 10px;
+}
+.menu h1{
+    color: grey;
+    font-size: 15px;
+    text-align: center;
+}
+.menu a :hover{
+    background:black;
+}
+.menu img{
+    width: 30px;
+    height: 30px;
+}
+
+.navegacion{
+	width: 1000px;
+	margin: 30px auto;
+    background: #fff;
+    font-size: 35px;
+    
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    width: 95%;
+    margin: auto;
+    grid-gap: 10px;
+    padding: 50px;
+    overflow: hidden;}
+
+    .container img{
+    width: 287px;
+    height: 287px;
+    vertical-align: top;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.5s
+ }
+ .footer{
+    width: 100%;
+    background: black;
+    color: white;
+    padding: 40px;
+    text-align: left;
+}
+.float-right {
+    float: right;
+    color: white;
+}
+ 
+ 
+    
